@@ -24,7 +24,8 @@ namespace SubtrationNumbersInReverseCode
                 exapmles.Add(reader.ReadLine());
             }
             reader.Close();
-
+            StreamWriter writer = new StreamWriter(_examplesPath);
+            writer.Close();
             return exapmles;
         }
 
