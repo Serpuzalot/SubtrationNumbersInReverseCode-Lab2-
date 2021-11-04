@@ -53,16 +53,9 @@ namespace SubtrationNumbersInReverseCode
 
                 if (op1[i] == '1' && op2[i] == '1')
                 {
-                    if (additionalUnits == 0)
-                    {
-                        result.Insert(0, "0");
-                        additionalUnits++;
-                    }
-                    else
-                    {
-                        result.Insert(0, "0");
-                        additionalUnits++;
-                    }
+
+                    result.Insert(0, "0");
+                    additionalUnits++;
                     continue;
                     
                 }
